@@ -43,7 +43,7 @@ function App(){
       <h3 style={{textAlign: "center", color:"brown"}}>My Top 5 Movie Categories</h3>
 
       <Body 
-        image="src/Images/newaction.jpg" alt="image" width="{300}" 
+        image={newaction} 
         heading="ACTION" 
         button="Watch trailler"
       />

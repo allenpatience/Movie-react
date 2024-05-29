@@ -2,17 +2,17 @@ function Footer(){
     return(
       <section>
         <footer id="footer">
-              <h1>
+              <h1 style={{color: "black"}}>
                   Contact Information
               </h1>
   
               <ul>
-                  <li>allenmahoro@gmail.com</li>
-                  <li>Kanzucodefoundation</li>
+                  <li style={{color: "white"}}>allenmahoro@gmail.com</li>
+                  <li style={{color: "white"}}>Kanzucodefoundation</li>
                   <li>Kampala-Uganda</li>
               </ul>
   
-              <p>&copy;2024 Ishimwe Patience Allen. All rights reserved.</p>
+              <p style={{color: "brown"}}>&copy;2024 Ishimwe Patience Allen. All rights reserved.</p>
           </footer>
       </section>
     )
