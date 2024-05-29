@@ -10,25 +10,29 @@
 }
 .buttons{
     align-items: end;
-    padding-left: 70%;
+    padding-left: 60%;
     justify-content: space-between;
 }
 span{
     color: brown;
 }
 .image{
-    border-color: black;
-    background-color: rgb(227, 228, 231);
+    border-color: brown;
+    background-color: brown;
     margin: 1px;
     height: 500px; 
+    border: 1px solid;
+    padding: 2px;
     
 }
 #container{
     border: 2px solid;
     padding: 20px;
     width: 300px;
+    border-color: brown;
 }
 #footer{
     background-color: rgb(4, 4, 97);
     color: rgb(170, 196, 199);
 }
+

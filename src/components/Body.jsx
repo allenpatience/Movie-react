@@ -9,8 +9,8 @@ function Body(props){
             <img src={props.src} alt={props.alt} width={props.width} />
           </div>
   
-          <h1>{props.heading}</h1>
-          <button>{props.button}</button>
+          <h1 style={{color: "brown"}}>{props.heading}</h1>
+          <button style={{color: "brown"}}>{props.button}</button>
   
         </div>
   

@@ -4,7 +4,7 @@ import Footer from "./components/Footer.jsx";
 
 function App(){
   return(
-    <div>
+    <div style={{backgroundColor: "black"}}>
       <section>
         <header>
           <title>allenranks</title>
@@ -26,14 +26,14 @@ function App(){
       <br/>
       <div className="container1">
       <section>
-        <h1 style={{textAlign: "center", color:"rgb(4, 4, 97)"}}>My Movie Ranking Site.</h1>
+        <h1 style={{textAlign: "center", color:"brown"}}>My Movie Ranking Site.</h1>
         <div className="image">
-          <img src="src/Images/newreact.jpg" alt="image" width={1250} height={500}/>
+          <img src="src/Images/newreact.jpg" alt="image" width={1240} height={500}/>
         </div>
       </section>
       
       <br/>
-      <h3>My Top 5 Movie Categories</h3>
+      <h3 style={{textAlign: "center", color:"brown"}}>My Top 5 Movie Categories</h3>
 
       <Body 
         image="src/Images/newaction.jpg" alt="image" width="{300}" 
