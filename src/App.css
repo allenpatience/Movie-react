@@ -18,7 +18,7 @@ span{
 }
 .image{
     border-color: brown;
-    background-color: brown;
+    background-color: rgb(4, 4, 97);
     margin: 1px;
     height: 500px; 
     border: 1px solid;
@@ -29,10 +29,11 @@ span{
     border: 2px solid;
     padding: 20px;
     width: 300px;
-    border-color: brown;
+    border-color: rgb(4, 4, 97);
+    display: block;
 }
 #footer{
     background-color: rgb(4, 4, 97);
-    color: rgb(170, 196, 199);
+    color: white;
 }
 

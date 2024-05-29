@@ -1,6 +1,13 @@
 import "./App.css"
 import Body from "./components/Body.jsx";
 import Footer from "./components/Footer.jsx";
+import newaction from "/src/Images/newaction.jpg";
+import newcomedy from "/src/Images/newcomedy.jpg";
+import newdrama from "/src/Images/newdrama.jpg";
+import newfiction from "/src/Images/newfiction.jpg";
+import newthriller from "/src/Images/newthriller.jpg";
+
+
 
 function App(){
   return(
